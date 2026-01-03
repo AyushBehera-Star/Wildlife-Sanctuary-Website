@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northwind Valley Sanctuary | Alpine Tourism</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Northwind <span>Valley</span></div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#visit-info">Visitor Info</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Where Winter Meets the Wild</h1>
+            <p>Explore the pristine alpine forests and frozen peaks of Northwind Valley.</p>
+            <button onclick="scrollToSection('visit-info')">Plan Your Expedition</button>
+        </div>
+    </section>
+
+    <section id="about" class="container section-padding">
+        <h2 class="section-title">The Frozen Sanctuary</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Northwind Valley is a unique high-altitude reserve where lush evergreen forests meet perpetual snow. Established to protect the fragile alpine ecosystem, it provides a habitat for cold-resilient species like the Snow Leopard, Red Panda, and Himalayan Monal.</p>
+                <p>Located in the upper reaches of the Northern Range, the sanctuary offers a misty, magical experience. Whether you enjoy winter trekking, silent nature walks among ancient pine trees, or photography in the mist, Northwind offers an escape into a serene, cold wilderness.</p>
+            </div>
+            <div class="about-image">
+           <img src="/assets/misty alpine forest.jpg" alt="Misty Alpine Forest">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="attractions" class="bg-light section-padding">
+        <div class="container">
+            <h2 class="section-title">Major Attractions</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="/assets/snow leopard.jpg" alt="Snow Leopard">
+                    <div class="card-info">
+                        <h3>Snow Leopard Trek</h3>
+                        <p>Embark on a guided winter trek to spot the elusive 'Ghost of the Mountains' in its natural icy habitat.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/glacial fall.jpg" alt="Glacial Waterfall">
+                    <div class="card-info">
+                        <h3>Glacial Falls</h3>
+                        <p>Witness the stunning partially frozen waterfalls surrounded by frost-covered rocks and moss.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/bird2.jpg" alt="Snowy Owl">
+                    <div class="card-info">
+                        <h3>Winter Birding</h3>
+                        <p>Observe rare high-altitude birds like the Snowy Owl and Golden Eagle from our silent viewing decks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="visit-info" class="container section-padding">
+        <h2 class="section-title">Expedition Information</h2>
+        
+        <div class="info-layout">
+            <div class="info-table-wrapper">
+                <h3>Timings & Permits</h3>
+                <table class="info-table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Winter Hours</td>
+                            <td>8:00 AM - 4:00 PM (Due to light)</td>
+                        </tr>
+                        <tr>
+                            <td>Summer Hours</td>
+                            <td>7:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Entry Permit</td>
+                            <td>60/- per person</td>
+                        </tr>
+                        <tr>
+                            <td>Snow Trek Guide</td>
+                            <td>100/- per group</td>
+                        </tr>
+                        <tr>
+                            <td>Camping Gear</td>
+                            <td>Available for Rent</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="guidelines">
+                <h3>Safety Guidelines</h3>
+                <ul>
+                    <li>❄️ <strong>Clothing:</strong> Thermal wear and heavy jackets are mandatory.</li>
+                    <li>🔥 <strong>No Fires:</strong> Open fires in the forest are strictly prohibited.</li>
+                    <li>🔇 <strong>Silence:</strong> Sound travels far in the cold; please whisper.</li>
+                    <li>🚯 <strong>Trash:</strong> Carry your trash back down (Zero Waste Zone).</li>
+                    <li>🐻 <strong>Wildlife:</strong> Do not feed the animals; they are wild predators.</li>
+                </ul>
+            </div>
+        </div>
+    </section>  
+
+    <footer id="contact">
+        <div class="footer-content">
+            <p><strong>Northwind Valley Sanctuary</strong></p>
+            <p>Base Camp 4, Alpine Ridge Road, Northern Territory, Zip-99887</p>
+            <p>Email: northwindvalley123@gmail.com | Phone: +123-555-0199</p>
+            <p class="copyright">&copy; 2026 Northwind Valley. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
