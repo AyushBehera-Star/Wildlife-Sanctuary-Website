@@ -2,7 +2,6 @@ window.scrollToSection = function(id) {
     const targetElement = document.getElementById(id);
     
     if (targetElement) {
-        // Smoothly scrolls the window to the target section based on its ID.
         targetElement.scrollIntoView({
             behavior: 'smooth'
         });
